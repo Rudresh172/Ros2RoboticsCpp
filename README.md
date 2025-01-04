@@ -16,7 +16,7 @@ Implement popular robotics algorithms in C++ and ROS2
         - [x] Dynamic Window Approach
         - [x] A* 
         - [x] Probabilistic Road-Map
-        - [ ] Rapid-Exploring Random Trees (RRT)
+        - [x] Rapid-Exploring Random Trees (RRT)
 
 ## Localization 
 - [**EKF_localization**](./src/ekf_localization/)
@@ -132,7 +132,7 @@ Implement popular robotics algorithms in C++ and ROS2
 
 - [**Probabilistic Road-Map (PRM) planning**](./src/prm_planner)
     * Blue Markers: Sampled points
-    * Green Markers: Searched points with Dijkstra method,
+    * Green Markers: Searched points with Dijkstra method
     * Red Line: Final path of PRM
 
     ```bash
@@ -142,6 +142,20 @@ Implement popular robotics algorithms in C++ and ROS2
     <p align="center">
     <img src="gifs/probabilistic_roadmap_planning.gif" width="960" />
     </p>   
+
+- [**Rapidly-Exploring Random Trees (RRT)**](./src/rrt_planner)
+    * Red Markers: Start and goal positions
+    * Black Markers: Obstacles
+    * Green Line: Searched tree
+    * Red Line: Final path of RRT
+
+    ```bash
+    ros2 launch rrt_planner rrt_planner.launch.py
+    ```
+
+    <p align="center">
+    <img src="gifs/rrt_planner.gif" width="960" />
+    </p>  
 
 
 
