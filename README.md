@@ -15,7 +15,7 @@ Implement popular robotics algorithms in C++ and ROS2
     - Path Planning
         - [x] Dynamic Window Approach
         - [x] A* 
-        - [ ] Probabilistic Road-Map
+        - [x] Probabilistic Road-Map
         - [ ] Rapid-Exploring Random Trees (RRT)
 
 ## Localization 
@@ -30,7 +30,7 @@ Implement popular robotics algorithms in C++ and ROS2
     ```
 
     <p align="center">
-    <img src="https://github.com/quangnhat185/Media/blob/main/ros2RoboticsCpp/EKF_localization.gif" width="960" />
+    <img src="gifs/EKF_localization.gif" width="960" />
     </p>
 
 - [**Particle_filter**](./src/particle_filter/)
@@ -45,7 +45,7 @@ Implement popular robotics algorithms in C++ and ROS2
     ```
 
     <p align="center">
-    <img src="https://github.com/quangnhat185/Media/blob/main/ros2RoboticsCpp/Particle_filter.gif" width="960" />
+    <img src="gifs/Particle_filter.gif" width="960" />
     </p>    
 
 - [**Lidar2GridMap**](./src/lidar2gridmap/)
@@ -57,7 +57,7 @@ Implement popular robotics algorithms in C++ and ROS2
     ```
 
     <p align="center">
-    <img src="https://github.com/quangnhat185/Media/blob/main/ros2RoboticsCpp/lidar2gridmap.png" width="960" />
+    <img src="gifs/lidar2gridmap.png" width="960" />
     </p>   
 
 - [**Kmeans_clustering**](./src/kmeans_clustering/)
@@ -69,7 +69,7 @@ Implement popular robotics algorithms in C++ and ROS2
     ```
 
     <p align="center">
-    <img src="https://github.com/quangnhat185/Media/blob/main/ros2RoboticsCpp/Kmeans.gif" width="960" />
+    <img src="gifs/Kmeans.gif" width="960" />
     </p>      
 
 - [**EKF SLAM**](./src/ekf_slam/)
@@ -84,7 +84,7 @@ Implement popular robotics algorithms in C++ and ROS2
     ```
 
     <p align="center">
-    <img src="https://github.com/quangnhat185/Media/blob/main/ros2RoboticsCpp/ekf_slam.gif" width="960" />
+    <img src="gifs/ekf_slam.gif" width="960" />
     </p>                
 
 - [**Dynamic Window Apporach**](./src/dwa/)
@@ -98,7 +98,7 @@ Implement popular robotics algorithms in C++ and ROS2
     ```
 
     <p align="center">
-    <img src="https://github.com/quangnhat185/Media/blob/main/ros2RoboticsCpp/dwa.gif" width="960" />
+    <img src="gifs/dwa.gif" width="960" />
     </p>                
 
 - [**A Star From Both Sides**](./src/a_star_two_sides)
@@ -112,7 +112,7 @@ Implement popular robotics algorithms in C++ and ROS2
     ```
 
     <p align="center">
-    <img src="https://github.com/quangnhat185/Media/blob/main/ros2RoboticsCpp/a_star_two_sides.gif" width="960" />
+    <img src="gifs/a_star_two_sides.gif" width="960" />
     </p>   
 
 - [**FastSLAM 1.0**](./src/fast_slam)
@@ -127,7 +127,20 @@ Implement popular robotics algorithms in C++ and ROS2
     ```
 
     <p align="center">
-    <img src="https://github.com/quangnhat185/Media/blob/main/ros2RoboticsCpp/fastSlam.gif" width="960" />
+    <img src="gifs/fastSlam.gif" width="960" />
+    </p>   
+
+- [**Probabilistic Road-Map (PRM) planning**](./src/prm_planner)
+    * Blue Markers: Sampled points
+    * Green Markers: Searched points with Dijkstra method,
+    * Red Line: Final path of PRM
+
+    ```bash
+    ros2 launch prm_planner prm_planner.launch.py
+    ```
+
+    <p align="center">
+    <img src="gifs/probabilistic_roadmap_planning.gif" width="960" />
     </p>   
 
 
